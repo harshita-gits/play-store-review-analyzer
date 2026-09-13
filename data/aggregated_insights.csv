@@ -1,0 +1,10 @@
+theme,feature_area,frequency,avg_severity,min_stars,avg_stars,impact_score,complaint_share_pct
+General App Usability & UX,General UI/UX,35,2.8285714285714287,1,1.3714285714285714,99.0,37.234042553191486
+Unresponsive Customer Support,Customer Support,14,4.0,1,1.0,56.0,14.893617021276595
+Driver Cancellation & Fee Penalty,Billing & Payments,10,4.0,1,1.4,40.0,10.638297872340425
+Unresolved Refund & Double Charge,Billing & Payments,7,5.0,1,1.0,35.0,7.446808510638298
+Excessive Dynamic Surge Fares,Promotions & Dynamic Pricing,10,3.0,1,1.1,30.0,10.638297872340425
+Dispatch Latency & Booking Delays,Trip Experience & Drivers,7,3.0,1,1.5714285714285714,21.0,7.446808510638298
+Login & Account Verification,Account & Login,4,4.0,1,1.0,16.0,4.25531914893617
+GPS Accuracy & Pickup Misalignment,Navigation & Geolocation,4,3.0,1,1.0,12.0,4.25531914893617
+Unprofessional Driver Behavior,Trip Experience & Drivers,3,3.0,1,1.3333333333333333,9.0,3.1914893617021276
