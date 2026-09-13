@@ -31,3 +31,7 @@ jobs:
     - name: Test sample classification & schema integrity
       run: |
         python extractor.py
+
+    - name: Run unit test suite
+      run: |
+        python -m unittest discover tests
