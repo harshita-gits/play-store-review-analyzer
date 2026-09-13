@@ -69,8 +69,8 @@ LLM_MODEL=gpt-4o-mini
 ```
 > **Zero-Cost / Offline Mode**: If no API key is supplied, the pipeline automatically activates its intelligent heuristic rule engine, allowing you to test and verify the entire end-to-end flow without incurring API costs.
 
-### 3. Run the Pipeline
-Run the complete pipeline for any Google Play Store app:
+### 3. Run the Pipeline or Interactive Web Dashboard
+Run the complete pipeline from CLI:
 ```bash
 # Scrape & analyze 300 recent reviews for Uber
 python main.py --app-id com.ubercab --count 300
@@ -82,7 +82,18 @@ python main.py --app-id com.dd.doordash --count 250
 python main.py --skip-scrape
 ```
 
+#### Launch the Interactive Streamlit Web App
+To explore reviews, apply dynamic filters, and inspect verbatim reasoning in your browser:
+```bash
+streamlit run app.py
+```
+
 ---
+
+## 📑 Portfolio & Product Deliverables
+- 📄 **Executive Case Study**: [CASE_STUDY.md](CASE_STUDY.md) — Half-page executive synthesis with telemetry findings and KPIs.
+- 📋 **Production PRD**: [PRD.md](PRD.md) — Detailed engineering specification for the *Zero-Fault Cancellation Telemetry Engine*.
+- 🎯 **Interview Cheat Sheet**: [INTERVIEW_PITCH.md](INTERVIEW_PITCH.md) — 2-minute STAR pitch script and model Q&A for hiring managers.
 
 ## 🧠 Prompt Engineering Iteration Log
 
