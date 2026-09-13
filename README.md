@@ -52,7 +52,7 @@ flowchart LR
 
 ### 1. Clone & Install Dependencies
 ```bash
-git clone https://github.com/your-username/play-store-review-analyzer.git
+git clone https://github.com/harshita-gits/play-store-review-analyzer.git
 cd play-store-review-analyzer
 pip install -r requirements.txt
 ```
