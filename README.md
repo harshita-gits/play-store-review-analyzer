@@ -148,6 +148,6 @@ play-store-review-analyzer/
 
 ---
 
-## 💼 Resume-Ready Highlights
+## Key Project Outcomes
 - **Product Strategy & AI**: *Architected an automated feedback intelligence system using Python, OpenAI gpt-4o-mini, and `google-play-scraper` to process 300+ public app reviews into structured telemetry.*
 - **Quantitative Prioritization**: *Formulated a Severity-Weighted Impact model ($Frequency \times Severity$) to distinguish critical billing defects from cosmetic bugs, surfacing 3 actionable product specs.*
