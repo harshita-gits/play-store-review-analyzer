@@ -36,32 +36,36 @@ To bridge this operational blind spot, we architected the **LLM Review-Insights 
 
 ---
 
-## 4. Product Recommendations (The Product Thinking Output)
+## 4. Product Recommendations
 
-### Recommendation 1: Dispute-Free Cancellation Grace Period & Telemetry Audit
-* **Root Cause**: 10.6% of complaints cited situations where drivers accepted a ride, delayed or stayed stationary, and then cancelled—causing the rider to be unfairly slapped with a cancellation fee.
-* **Proposed Solution**: 
-  - Introduce an automated **"Zero-Fault Detection Engine"**: if GPS telemetry confirms the driver was stationary for $>3$ minutes or moving away from the pickup point, automatically waive any cancellation fee without requiring user dispute.
-  - Implement a **3-minute penalty-free cancellation grace window** whenever rider wait time exceeds the initial estimated arrival time (ETA) by more than 25%.
-* **Success Metric**: 45% reduction in cancellation fee disputes; +0.3 boost in Play Store rating within 60 days.
+### Recommendation 1: Dispute-Free Cancellation Grace Period
 
-### Recommendation 2: Proactive In-App Refund Tracker & Instant Ledger Reversals
-* **Root Cause**: Unresolved refunds and double charges held the highest possible severity rating (**5.0 / 5.0**). Users expressed severe distress over phantom deductions and delayed bank reversals with zero visibility.
-* **Proposed Solution**:
-  - Deploy a **"Live Refund Tracker"** card directly in the app's Activity tab, displaying real-time bank settlement stages (e.g., *Initiated → Acquirer Approved → Bank Cleared*).
-  - For duplicate pre-authorization holds under $50, convert bank holds into instant Uber Cash credits with a 5% bonus opt-in, resolving user anxiety in under 60 seconds.
-* **Success Metric**: 60% reduction in billing-related customer support tickets; 25% drop in credit card dispute chargebacks.
+**Problem:** 10.6% of complaints involved drivers accepting rides, delaying/staying stationary, and then cancelling, resulting in disputed cancellation fees.
 
-### Recommendation 3: Context-Aware Support Escalation & Bot Bypass Loop
-* **Root Cause**: 14.9% of complaints expressed extreme frustration with circular support chatbots that regurgitate canned replies during urgent transit or payment failures.
-* **Proposed Solution**:
-  - Implement **High-Severity Ticket Triage**: whenever a customer inquiry includes keywords or trip tags matching cancellation fee or double billing, bypass Level-1 conversational bots and route directly to specialized human resolvers.
-  - Equip support agents with single-click refund authorization up to $25 based on customer lifetime value (LTV) and historical dispute frequency.
-* **Success Metric**: Mean Time to Resolution (MTTR) cut from 28 hours to $<2$ hours; Support CSAT increased from 62% to 85%.
+**Proposed Solution:** Use trip GPS telemetry to identify potential driver-fault cancellations and automatically waive the associated fee. Introduce a penalty-free cancellation window when rider wait time materially exceeds the initial ETA.
 
----
+**Target Metrics:**
+- 45% reduction in cancellation-fee disputes
+- +0.3 improvement in Play Store rating within 60 days
 
-## 5. Resume & Portfolio Bullet Points
-- **Product Analytics & LLM Tooling**: *"Built an end-to-end Python pipeline leveraging LLM structured JSON prompting and `google-play-scraper` to mine 300+ app store reviews, isolating top pain points and severity-weighted product friction."*
+### Recommendation 2: Proactive Refund Tracker
+
+**Problem:** Refund delays and duplicate charges received the highest severity rating (5.0/5.0), with users reporting limited visibility into refund status.
+
+**Proposed Solution:** Add a real-time refund-status tracker showing the progression from refund initiation to bank settlement, reducing uncertainty around pending refunds and duplicate charges.
+
+**Target Metrics:**
+- 60% reduction in billing-related support tickets
+- 25% reduction in payment dispute chargebacks
+
+### Recommendation 3: Context-Aware Support Escalation
+
+**Problem:** 14.9% of complaints expressed frustration with repetitive support interactions, particularly around urgent cancellation and payment issues.
+
+**Proposed Solution:** Introduce severity-based support routing that identifies high-impact cancellation and billing issues and escalates them to specialized support teams.
+
+**Target Metrics:**
+- Reduce Mean Time to Resolution (MTTR) from 28 hours to <2 hours
+- Increase support CSAT from 62% to 85%points and severity-weighted product friction."*
 - **Problem Prioritization**: *"Engineered a Severity-Weighted Impact scoring model ($Frequency \times Severity$) to distinguish high-impact payment/cancellation defects from superficial UI feedback, prioritizing high-ROI roadmap initiatives."*
 - **Cross-Functional Strategy**: *"Formulated 3 data-driven product specs—including zero-fault cancellation grace windows and proactive refund tracking—projected to reduce billing dispute volume by 45%."*
