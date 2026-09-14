@@ -13,7 +13,7 @@ Product managers and operations teams at high-growth companies receive thousands
 **LLM Review-Insights Miner** automates the entire feedback intelligence loop:
 1. **Scrapes** real-time Play Store reviews for any application (e.g., Uber, DoorDash, Spotify).
 2. **Classifies** unstructured feedback into structured telemetry (`theme`, `sentiment`, `severity [1-5]`, `feature_area`, `reasoning`) via structured LLM prompt engineering.
-3. **Aggregates** issues by calculating a **Severity-Weighted Impact Score** ($Impact = Frequency \times Avg\,Severity$) to separate high-frequency minor nuisances from critical revenue-impacting bugs.
+3. **Aggregates** issues by calculating a **Severity-Weighted Impact Score** ($Impact = Frequency \times Avg\ Severity$) to separate high-frequency minor nuisances from critical revenue-impacting bugs.
 4. **Visualizes** complaint clusters into publication-quality executive dashboards.
 5. **Synthesizes** findings into actionable product roadmap recommendations with tracked KPIs.
 
