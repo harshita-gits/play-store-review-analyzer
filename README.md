@@ -90,10 +90,9 @@ streamlit run app.py
 
 ---
 
-## 📑 Portfolio & Product Deliverables
+## 📑 Product Deliverables
 - 📄 **Executive Case Study**: [CASE_STUDY.md](CASE_STUDY.md) — Half-page executive synthesis with telemetry findings and KPIs.
 - 📋 **Production PRD**: [PRD.md](PRD.md) — Detailed engineering specification for the *Zero-Fault Cancellation Telemetry Engine*.
-- 🎯 **Interview Cheat Sheet**: [INTERVIEW_PITCH.md](INTERVIEW_PITCH.md) — 2-minute STAR pitch script and model Q&A for hiring managers.
 
 ## 🧠 Prompt Engineering Iteration Log
 
